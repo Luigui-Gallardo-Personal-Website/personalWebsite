@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me</title>
+    <title>Contact</title>
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
@@ -41,29 +41,26 @@
       </div>
     </nav>
 
-    <!-- About me -->
-    <div class="container-fluid">
-      <section>
-        <div>
-          <h2>Interests</h2>
-          <p>
-            I enjoy being outdoors, mostly hiking or camping; recently, I tried
-            mountain biking and liked it too. When I am at home, I watch old
-            movies and series. Also, I spend my free time researching about
-            Informatics, Biotechnology, and Science.
-          </p>
-          <img
-            alt="image_1"
-            src="./imgs/DSC_0134.JPG"
-            style="max-width: 400px; max-height: 400px"
-          />
-          <img
-            alt="image_2"
-            src="./imgs/DSC_0081.JPG"
-            style="max-width: 400px; max-height: 400px"
-          />
-        </div>
-      </section>
+    <!-- Contact me section -->
+    <div>
+        <form action="./success.html">
+            <!-- name -->
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Name">
+            <br>
+            <!-- email -->
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com">
+            <br>
+            <!-- message -->
+            <label for="message">Message: </label>
+            <input type="text" id="message" name="message" placeholder="Message">
+            <br>
+            <!-- submit button -->
+            <input type="submit">
+        </form>
+    </div>
+    
     </div>
   </body>
 </html>

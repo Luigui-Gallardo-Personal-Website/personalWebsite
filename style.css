@@ -5,3 +5,8 @@ body {
 h1 {
     font: bold italic 32px "Times New Roman";
 }
+
+#message {
+		height: 100px;
+		width: 90vw;
+}
